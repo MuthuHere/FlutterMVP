@@ -1,7 +1,7 @@
-abstract class View {}
 
-abstract class Model {}
 
-abstract class Presenter {
-  Future viewDisplay();
+abstract class HomeContract {
+  void loadEmpList(String items);
+
+  void errorLoadingEmpList(String message);
 }

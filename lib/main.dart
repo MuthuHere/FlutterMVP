@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.black,
           accentColor: Colors.white,
           fontFamily: 'Montserrat',
-          primaryColorBrightness: Brightness.dark),
+          primaryColorBrightness: Brightness.light),
       home: HomePage(),
     );
   }
